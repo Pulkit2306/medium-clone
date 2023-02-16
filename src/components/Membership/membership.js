@@ -1,6 +1,7 @@
 import React from 'react'
 import HomeHeader from '../HomePage/HomeHeader'
 import './membership.css'
+import HomeFooter from "../HomePage/HomeFooter";
 
 const membership = () => {
     return (<>
@@ -35,6 +36,7 @@ const membership = () => {
                     </div>
                 </div>
             </div>
+            <HomeFooter />
         </>
 
     )

@@ -125,7 +125,14 @@
     cursor: pointer;
 }
 
-
+.WFooter{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+    background-color: white;
+    padding: 15px 0px;
+}
 
 
 @media sreen and (max-width: 600px){

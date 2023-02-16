@@ -1,6 +1,7 @@
 import React from 'react'
 import HomeHeader from '../HomePage/HomeHeader'
 import './index.css'
+import HomeFooter from "../HomePage/HomeFooter";
 
 const index = () => {
     return (
@@ -48,6 +49,7 @@ const index = () => {
                     </div>
                 </div>
             </div>
+            <HomeFooter />
         </>
     )
 }
